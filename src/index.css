@@ -37,10 +37,11 @@ margin-top: 0.5rem;
   font-size: 2rem;
 }
 .heigthAd{
-  height: 30px;
+  margin: 0.3rem;
 }
 .navigationBarAd{
   align-items: center;
+  justify-content: space-between;
 }
 .MembersCards :hover{
   background-color: rgba(210, 255, 142, 0.993);
