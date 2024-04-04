@@ -1,0 +1,30 @@
+.BodyArea{
+background-color: cornsilk;
+}
+.MembersCards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.card-text {
+  margin-bottom: 0.5rem;
+}
+.buttonsArea{
+  display:flex;
+  justify-content: space-evenly;
+}
+.buttonMoreInfo{display: flex;
+justify-content: flex-start;
+gap: 2rem;
+margin-top: 0.5rem;
+}
+.formholder{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width: 300px;
+  border-bottom: 1rem solid purple;
+}
