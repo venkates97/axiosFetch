@@ -31,7 +31,7 @@ function EditInfo() {
       <>
         <div className="formholder">
           {console.log(geteditMemberList)}
-          <form>
+          <form className="formAD">
             <div class="form-name">
               <label for="formGroupExampleInput">Name</label>
               <input
@@ -72,7 +72,7 @@ function EditInfo() {
                 onChange={(e) => setformWebsite(e.target.value)}
               />
             </div>
-            <div className="buttonMoreInfo">
+            <div className="buttonMoreInfo buttonHover">
               <button
                 class="btn btn-primary "
                 onClick={() => {

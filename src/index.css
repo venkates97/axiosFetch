@@ -14,6 +14,7 @@ background-color: cornsilk;
 .buttonsArea{
   display:flex;
   justify-content: space-evenly;
+  margin: 1rem;
 }
 .buttonMoreInfo{display: flex;
 justify-content: flex-start;
@@ -27,4 +28,26 @@ margin-top: 0.5rem;
 .card{
   width: 300px;
   border-bottom: 1rem solid purple;
+}
+.pageheading{
+  text-align: center;
+
+}
+.pageHeadingText{
+  font-size: 2rem;
+}
+.heigthAd{
+  height: 30px;
+}
+.navigationBarAd{
+  align-items: center;
+}
+.MembersCards :hover{
+  background-color: rgba(210, 255, 142, 0.993);
+}
+.buttonHover :hover{
+  background-color: rgb(137, 72, 143);
+}
+.formAD{
+  width: 80%;
 }

@@ -42,9 +42,12 @@ function AddMember() {
 
     return (
       <>
+      <div className="pageheading">
+          <h1 className="pageHeadingText"> Add New Member</h1>
+        </div>
         <div className="formholder">
           {console.log(geteditMemberList)}
-          <form>
+          <form className="formAD">
             <div class="form-name">
               <label for="formGroupExampleInput">Name</label>
               <input

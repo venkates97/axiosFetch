@@ -24,8 +24,10 @@ function DisplayMembers() {
             <p class="card-text text-muted">
               City: {member.city}
             </p>  
-            <div className="buttonsArea">
-            <a class="btn btn-primary" onClick={()=>navigate(`/member/${member.id}`)}>
+                
+          </div>
+          <div className="buttonsArea buttonHover">
+            <a class="btn btn-primary " onClick={()=>navigate(`/member/${member.id}`)}>
             <i class="bi bi-info-circle"></i>
             </a>
             <a class="btn btn-primary" onClick={()=>navigate(`/member/edit/${member.id}`)}>
@@ -36,8 +38,6 @@ function DisplayMembers() {
             </a>
 
             </div>
-           
-          </div>
         </div>
       </>
     );
@@ -47,7 +47,7 @@ function DisplayMembers() {
     <>
       <div className="DisplayPage">
         <div className="pageheading">
-          <h1>Our Proud Members</h1>
+          <h1 className="pageHeadingText">Our Proud Members</h1>
         </div>
 
         <div className="MembersCards" >

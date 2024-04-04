@@ -6,7 +6,7 @@ function Navigationbar() {
 
   return (
     <>
-      <ul className="nav nav-pills " style={{ backgroundColor: "black" }}>
+      <ul className="nav nav-pills navigationBarAd" style={{ backgroundColor: "black" }}>
         <li className="nav-item" onClick={() => navigate("/")}>
           <Link className="nav-link text-white text-bold" to="/">
             Membership Details
